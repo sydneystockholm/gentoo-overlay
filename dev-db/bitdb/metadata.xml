@@ -6,5 +6,6 @@
     <name>Johan Bergström</name>
   </maintainer>
   <use>
+    <flag name="single-thread">Only use one thread for querying the database</flag>
   </use>
 </pkgmetadata>

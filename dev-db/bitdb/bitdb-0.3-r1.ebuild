@@ -15,7 +15,7 @@ HOMEPAGE="http://github.com/sydneystockholm/bitdb"
 
 LICENSE="MIT"
 SLOT="0"
-IUSE="test"
+IUSE="single-thread test"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND=">=dev-libs/bitset-2.8
@@ -28,6 +28,11 @@ S="${WORKDIR}/${PN}"
 src_prepare() {
 	eautoreconf
 	autotools-utils_src_prepare
+}
+
+src_configure() {
+	econf \
+		$(use_enable single-thread)
 }
 
 src_compile() {
