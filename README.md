@@ -3,7 +3,7 @@
 Usage:
 
 ```bash
-$ echo "dev-db/bitset ~amd64" >> /etc/portage/package.keywords
-$ emerge bitset
+$ echo "dev-db/bitdb ~amd64" >> /etc/portage/package.keywords
+$ emerge bitdb
 ```
 
