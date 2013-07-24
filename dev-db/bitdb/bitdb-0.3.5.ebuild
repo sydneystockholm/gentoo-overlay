@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
 
-EAPI="4"
+EAPI="5"
 
 inherit git-2 autotools-utils
 
@@ -19,7 +19,7 @@ IUSE="single-thread test"
 KEYWORDS="~amd64 ~x86"
 
 RDEPEND="dev-libs/bitset
-	>=dev-db/libzdb-2.10"
+	dev-db/libzdb"
 DEPEND="${RDEPEND}
 	test? ( dev-db/libzdb[sqlite] )"
 
