@@ -18,7 +18,7 @@ SLOT="0"
 IUSE="single-thread test"
 KEYWORDS="~amd64 ~x86"
 
-RDEPEND="dev-libs/bitset
+RDEPEND=">=dev-libs/bitset-2.8.4
 	dev-db/libzdb"
 DEPEND="${RDEPEND}
 	test? ( dev-db/libzdb[sqlite] )"
