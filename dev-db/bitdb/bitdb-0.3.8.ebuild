@@ -6,7 +6,7 @@ EAPI="5"
 
 inherit git-2 autotools-utils
 
-EGIT_REPO_URI="git@github.com:sydneystockholm/bitdb.git"
+EGIT_REPO_URI="https://github.com/sydneystockholm/bitdb.git"
 EGIT_COMMIT="${PV}"
 AUTOTOOLS_IN_SOURCE_BUILD=1
 
