@@ -6,12 +6,12 @@ EAPI="5"
 
 inherit git-2 autotools-utils
 
-EGIT_REPO_URI="https://github.com/sydneystockholm/bitdb.git"
+EGIT_REPO_URI="git@bitbucket.org:sydneystockholm/bitdb.git"
 EGIT_COMMIT="${PV}"
 AUTOTOOLS_IN_SOURCE_BUILD=1
 
 DESCRIPTION="A compressed bitset with supporting data structures and algorithms"
-HOMEPAGE="http://github.com/sydneystockholm/bitdb"
+HOMEPAGE="https://bitbucket.org/sydneystockholm/bitdb"
 
 LICENSE="MIT"
 SLOT="0"
